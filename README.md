@@ -1,0 +1,1 @@
+This FastAPI service extracts lab test names, values, and reference ranges from lab report images using OCR and custom logic—no LLMs involved. It returns structured JSON and flags out-of-range values. Simply send an image to the /get-lab-tests POST endpoint to receive clean, analyzable data. Built with Python, Tesseract, and FastAPI for scalability and accuracy.
